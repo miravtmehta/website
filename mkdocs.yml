@@ -1,0 +1,56 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.sections
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:mirav.mailme@gmail.com
+      name: Email
+#    - icon: fontawesome/solid/linkedin
+#      link: https://linkedin.com/in/miravtmehta # TODO
+#      name: Linkedin
+#    - icon: fontawesome/solid/x-twitter
+#      link: https://linkedin.com/in/miravtmehta # TODO
+#      name: X-Twitter
+#    - icon: fontawesome/solid/github
+#      link: https://github.com/miravtmehta # TODO
+#      name: Github
+
+plugins:
+  - blog:
+      categories_allowed:
+        - Engineering
+        - Startups
+        - General
+        - Leadership
+        - All
+      post_url_format: "{slug}"
+      blog_toc: true
+  - search
