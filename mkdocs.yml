@@ -1,56 +1,83 @@
-site_name: My Docs
+site_name: Mirav T. Mehta
 theme:
   name: material
   palette:
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
+        icon: material/eye
         name: Switch to light mode
 
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/eye-outline
         name: Switch to dark mode
   features:
     - header.autohide
+    # Navigation
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.sections
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.sections
     - navigation.path
-    - navigation.prune
     - navigation.indexes
+    - navigation.sections
+    # Search
     - search.suggest
     - search.highlight
     - search.share
+    # Table of contents-TOC
+    - toc.follow
+    - content.tabs.link
 
 extra:
-  generator: false
+  generator: true
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:mirav.mailme@gmail.com
       name: Email
-#    - icon: fontawesome/solid/linkedin
-#      link: https://linkedin.com/in/miravtmehta # TODO
-#      name: Linkedin
-#    - icon: fontawesome/solid/x-twitter
-#      link: https://linkedin.com/in/miravtmehta # TODO
-#      name: X-Twitter
-#    - icon: fontawesome/solid/github
-#      link: https://github.com/miravtmehta # TODO
-#      name: Github
+    - icon: fontawesome/brands/linkedin-in
+      link: https://linkedin.com/in/miravtmehta
+      name: Linkedin
+    - icon: fontawesome/brands/github
+      link: https://github.com/miravtmehta
+      name: Github
 
 plugins:
   - blog:
+      categories_name: "Tags: "
       categories_allowed:
+        - All
         - Engineering
-        - Startups
         - General
         - Leadership
-        - All
+        - Product
+        - Productivity
+        - Startups
       post_url_format: "{slug}"
       blog_toc: true
+      post_excerpt: required
+      archive: false
   - search
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+  - def_list
+  - pymdownx.tabbed:
+      slugify:
+        kwds:
+          case: lower
+  - toc:
+      permalink: ⚓︎
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+copyright: Mirav T. Mehta
