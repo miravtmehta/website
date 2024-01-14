@@ -8,8 +8,7 @@ tags:
   - HTML5
 ---
 
-# No one gives a dang about your blog !
-
+# No one gives a dang about your blog ! 
 <!-- more -->
 
 I started writing blogs on Engineering, Products, Leadership and Mathematics back in 2015 on WordPress. I possibly wrote a few articles sharing my thoughts and learnings about these topics. The frequency of my publishing was as rare as February 29th, occurring once every leap years.
