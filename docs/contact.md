@@ -1,6 +1,6 @@
 # Contact
 
-If you need to get in touch for `work opportunities` or with any help (_apart from :money_with_wings: :moneybag: :dollar:_) , please feel free to use any of the following contact methods:
+If you need to get in touch for `work opportunities` or with any help (_apart from_ :money_with_wings: :moneybag:) <br> please feel free to use any of the following contact methods:
 
 - Email: [mirav.mailme@gmail.com](mailto:mirav.mailme@gmail.com)
 - Linkedin: [https://www.linkedin.com/in/miravtmehta](https://www.linkedin.com/in/miravtmehta)

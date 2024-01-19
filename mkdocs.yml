@@ -49,6 +49,7 @@ extra:
 
 plugins:
   - blog:
+      draft_on_serve: false
       categories_name: "Tags: "
       categories_allowed:
         - All
@@ -64,6 +65,9 @@ plugins:
       archive: false
   - search
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - abbr
   - attr_list
   - pymdownx.snippets

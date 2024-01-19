@@ -1,9 +1,9 @@
 # About
 
-Hi, I am Mirav (pronounced *mee-ruh-av*)
+Hi, I am Mirav (pronounced _mee-ruh-av_)
 
 I helm two hats as Engineering manager / Technical product manager at a HealthTech Stealth Startup. Currently
-building Data lakes, Knowledge graphs consisting of ~800 million nodes, relationships, data points 
+building Data lakes, Knowledge graphs consisting of ~2 million nodes, relationships, data points combined
 for accurate search and insightful analytics.
 
 By night, I kung-fu, building microservices, platform infrastructure (_mostly_ [Go](https://go.dev/)).
