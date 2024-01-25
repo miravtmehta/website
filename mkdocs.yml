@@ -6,12 +6,12 @@ theme:
   palette:
     - scheme: slate
       toggle:
-        icon: material/eye
+        icon: material/toggle-switch
         name: Switch to light mode
 
     - scheme: default
       toggle:
-        icon: material/eye-outline
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
   features:
     - header.autohide
@@ -35,7 +35,7 @@ theme:
     - content.tabs.link
 
 extra:
-  generator: true
+  generator: false
   social:
     - icon: fontawesome/solid/paper-plane
       link: mailto:mirav.mailme@gmail.com
@@ -64,6 +64,7 @@ plugins:
       post_excerpt: required
       archive: false
   - search
+#  - glightbox
 markdown_extensions:
   - admonition
   - pymdownx.details
